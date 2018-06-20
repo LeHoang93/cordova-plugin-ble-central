@@ -232,7 +232,7 @@
         [startNotificationCallbacks setObject: callback forKey: key];
         [stopNotificationCallbacks removeObjectForKey:key];
 
-        [peripheral setNotifyValue:YES forCharacteristic:characteristic];
+        //[peripheral setNotifyValue:YES forCharacteristic:characteristic];
 
     }
 
